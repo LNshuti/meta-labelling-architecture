@@ -3,23 +3,23 @@
 **Models taken into consideration:**
 ------------------------------------
 
-A. Moving Average Crossover Stragegy: When the short term moving average crosses above the long term moving average, that indicates a positive trend, and hence a buy. If it crosses from the top down, it is a short signal.
+* Moving Average Crossover Stragegy: When the short term moving average crosses above the long term moving average, that indicates a positive trend, and hence a buy. If it crosses from the top down, it is a short signal.
 
-B. Minervini Trend Filter
+* Minervini Trend Filter
 
-C. Hedgefundie's Ultimate Adventure
+* Hedgefundie's Ultimate Adventure
 
-D. Antonacci Dual Momentum
+* Antonacci Dual Momentum
 
-E. Radge ADX Day Trade
+* Radge ADX Day Trade
 
-F. Radge BBO
+* Radge BBO
 
-G. Radge Weekend Trend Trader
+* Radge Weekend Trend Trader
 
-H. Bensdorp books
+* Bensdorp books
 
-I. Connors' 7 day high/low
+* Connors' 7 day high/low
 
 **Figure 1. Meta Labeling Architecture See third reference for additional details.**
 

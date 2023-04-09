@@ -26,12 +26,6 @@
 ![image](https://user-images.githubusercontent.com/13305262/230697422-bf530fdd-dacf-455a-a63c-d8fa573abede.png)
 
 
-save plots
-
-upload to s3
-
-email completion message
-
 ```{python}
 AWSTemplateFormatVersion: '2010-09-09'
 Description: Trading Strategy Infrastructure

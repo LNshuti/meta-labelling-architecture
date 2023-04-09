@@ -38,4 +38,4 @@ email completion message
 
 **References**
 
-1. Marcos Lopez de Prado. Advances in Financial Machine Learning. https://www.amazon.com/Advances-Financial-Machine-Learning-Marcos/dp/1119482089/ref=sr_1_1?qid=1681015920&refinements=p_27%3AMarcos+Lopez+de+Prado&s=books&sr=1-1&text=Marcos+Lopez+de+Prado
+1. Marcos Lopez de Prado. Advances in Financial Machine Learning. Lopez de Prado, M. (2018). Advances in Financial Machine Learning. United Kingdom: Wiley.

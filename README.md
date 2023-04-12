@@ -25,7 +25,7 @@ Disclaimer: This is for Educational Purposes Only.
 
 * Connors' 7 day high/low
 
-**Figure 1. Meta Labeling Architecture See references for additional details.**
+**Figure 1. Meta Labeling Architecture.**
 
 ![image](https://user-images.githubusercontent.com/13305262/230697422-bf530fdd-dacf-455a-a63c-d8fa573abede.png)
 

@@ -1,5 +1,9 @@
 ## Meta Labeling
 
+Deploy full stack application that automatically download live Bitcoin prices from an exchange such as CoinmarketCap. Use Advanced ML forecasting method to build a trading strategy based on ensemble modeling. Backtest strategy. 
+
+Disclaimer: This is for Educational Purposes Only. 
+
 **Models taken into consideration:**
 ------------------------------------
 

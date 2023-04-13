@@ -29,6 +29,9 @@ Disclaimer: This is for Educational Purposes Only.
 
 ![image](https://user-images.githubusercontent.com/13305262/230697422-bf530fdd-dacf-455a-a63c-d8fa573abede.png)
 
+**Figure 2. Production**
+
+<img width="530" alt="image" src="https://user-images.githubusercontent.com/13305262/231709108-313d6910-da21-4e74-a92a-ede5031e4a6d.png">
 
 **References**
 

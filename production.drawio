@@ -1,14 +1,11 @@
 <mxfile host="65bd71144e">
     <diagram id="A1ZgrSOrBBQZSEjRIwMT" name="Page-1">
-        <mxGraphModel dx="732" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="970" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="2" value="1. Project Dcoping" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
                     <mxGeometry x="280" y="200" width="120" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="4">
-                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="2. Data Engineering" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
                     <mxGeometry x="440" y="280" width="120" height="60" as="geometry"/>
@@ -24,6 +21,27 @@
                 </mxCell>
                 <mxCell id="7" value="6. Business Analysis" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
                     <mxGeometry x="120" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="340" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="340" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.bendArrow;dy=15;dx=38;notch=0;arrowHead=55;rounded=1;fontSize=8;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="210" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.bendArrow;dy=15;dx=38;notch=0;arrowHead=55;rounded=1;fontSize=8;direction=south;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="210" width="130" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.bendArrow;dy=15;dx=38;notch=0;arrowHead=55;rounded=1;fontSize=8;direction=west;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="460" width="125" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.bendArrow;dy=15;dx=38;notch=0;arrowHead=55;rounded=1;fontSize=8;direction=north;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="460" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Architecture Source:&lt;/b&gt;&amp;nbsp; Chip Huyen. Designing Machine Learning Systems.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="121" y="560" width="500" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

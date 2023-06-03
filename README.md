@@ -33,3 +33,4 @@ Disclaimer: This is for Educational Purposes Only.
 **References**
 
 1. Marcos Lopez de Prado. Advances in Financial Machine Learning. Lopez de Prado, M. (2018). Advances in Financial Machine Learning. United Kingdom: Wiley.
+2. Chip Huyen. Designing Machine Learning Systems. An Iteative Process for Production Ready Application. 

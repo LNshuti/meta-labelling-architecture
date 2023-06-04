@@ -25,9 +25,15 @@ parameters = {
   'limit':'1',
   'convert':'USD'
 }
+
+
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  # take environment variables from .env.
 headers = {
-  'Accepts': 'application/json',
-  'X-CMC_PRO_API_KEY': 'your_api_key',
+    'Accepts': 'application/json',
+    'X-CMC_PRO_API_KEY': os.getenv('CMC_PRO_API_KEY'),
 }
 
 session = Session()

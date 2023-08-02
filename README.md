@@ -43,6 +43,13 @@ https://github.com/LNshuti/meta-labelling-architecture.git
 conda env create --file=environment.yaml
 ```
 
+**Step 3: install required python packages** 
+
+```bash
+pip install -r requirements.txt
+```
+```
+
 **References**
 
 1. Marcos Lopez de Prado. Advances in Financial Machine Learning. Lopez de Prado, M. (2018). Advances in Financial Machine Learning. United Kingdom: Wiley.

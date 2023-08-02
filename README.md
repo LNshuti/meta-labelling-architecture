@@ -30,6 +30,19 @@ Disclaimer: This is for Educational Purposes Only.
 ![image](https://user-images.githubusercontent.com/13305262/230697422-bf530fdd-dacf-455a-a63c-d8fa573abede.png)
 
 
+# How to use the code 
+
+**Step 1: Clone the repo** 
+```bash
+https://github.com/LNshuti/meta-labelling-architecture.git
+```
+
+**Step 2: Create an isolated environment to manage dependencies** 
+
+```bash
+conda env create --file=environment.yaml
+```
+
 **References**
 
 1. Marcos Lopez de Prado. Advances in Financial Machine Learning. Lopez de Prado, M. (2018). Advances in Financial Machine Learning. United Kingdom: Wiley.

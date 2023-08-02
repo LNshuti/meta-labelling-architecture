@@ -21,3 +21,7 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+
+# Ignore environments
+.env
+.env.*

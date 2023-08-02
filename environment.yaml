@@ -1,7 +1,6 @@
 name: meta-label-arch
 channels:
   - conda-forge
-  - nvidia
   - pytorch
 dependencies:
   - python=3.10

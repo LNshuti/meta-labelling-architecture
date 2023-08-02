@@ -1,13 +1,13 @@
 ## Meta Labeling
 
-Deploy full stack application that automatically download live Bitcoin prices from an exchange such as CoinmarketCap. Use Advanced ML forecasting method to build a trading strategy based on ensemble modeling. Backtest strategy. 
+Deploy a full stack application that automatically downloads live Bitcoin prices from an exchange such as CoinmarketCap. Use Advanced ML forecasting methods to build a trading strategy based on ensemble modeling. Backtest strategy. 
 
 Disclaimer: This is for Educational Purposes Only. 
 
 **Models taken into consideration:**
 ------------------------------------
 
-* Moving Average Crossover Stragegy: When the short term moving average crosses above the long term moving average, that indicates a positive trend, and hence a buy. If it crosses from the top down, it is a short signal.
+* Moving Average Crossover Strategy: When the short-term moving average crosses above the long-term moving average, that indicates a positive trend and hence a buy. If it crosses from the top down, it is a short signal.
 
 * Minervini Trend Filter
 
@@ -47,7 +47,6 @@ conda env create --file=environment.yaml
 
 ```bash
 pip install -r requirements.txt
-```
 ```
 
 **References**

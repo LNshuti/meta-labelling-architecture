@@ -1,4 +1,4 @@
-name: meta-label-arch
+name: meta-labell
 channels:
   - conda-forge
   - pytorch
@@ -7,7 +7,6 @@ dependencies:
   - pytorch
   - pip
   - pip:
-    - deepspeed
     - accelerate
     - sentencepiece
     - git+https://github.com/huggingface/transformers.git

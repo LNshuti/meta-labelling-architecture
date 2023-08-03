@@ -1,0 +1,33 @@
+{
+    "os": "macOS-13.4.1-arm64-arm-64bit",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-08-03T17:16:32.447525",
+    "startedAt": "2023-08-03T17:16:31.607331",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/LNshuti/meta-labelling-architecture",
+        "commit": "f825dafb4ba531d6224bced4f5851ec45274c035"
+    },
+    "email": "nshutl0@sewanee.edu",
+    "root": "/Users/lnshuti/Desktop/portfolio/meta-labelling-architecture",
+    "host": "Leonces-Mac-mini.local",
+    "username": "lnshuti",
+    "executable": "/Users/lnshuti/anaconda3/envs/meta-labell/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 221.645263671875
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

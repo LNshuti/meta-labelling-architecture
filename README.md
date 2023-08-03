@@ -30,23 +30,17 @@ Disclaimer: This is for Educational Purposes Only.
 ![image](https://user-images.githubusercontent.com/13305262/230697422-bf530fdd-dacf-455a-a63c-d8fa573abede.png)
 
 
-# How to use the code 
-
-**Step 1: Clone the repo** 
+# How to use the code  
 
 ```python
+# Step 1: Clone the repo
 https://github.com/LNshuti/meta-labelling-architecture.git
-```
 
-**Step 2: Create an isolated environment to manage dependencies** 
-
-```python
+# Step 2: Create an isolated environment to manage dependencies
 conda env create --file=environment.yaml
-```
 
-**Step 3: install required python packages** 
+# Step 3: install required python packages
 
-```python
 pip install -r requirements.txt
 ```
 

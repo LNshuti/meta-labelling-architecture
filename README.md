@@ -29,6 +29,10 @@ Disclaimer: This is for Educational Purposes Only.
 
 ![image](https://user-images.githubusercontent.com/13305262/230697422-bf530fdd-dacf-455a-a63c-d8fa573abede.png)
 
+# How to create architecture diagram using Drawio in VSCode
+[here](https://www.loom.com/share/f96d2241e6b54d81a529ea2527c776ae)
+
+
 
 # How to use the code  
 

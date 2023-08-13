@@ -53,12 +53,13 @@ pip install -r requirements.txt
 # Step 4 OpenBB terminal commands 
 historical --ticker BTC
 
-|-|-|
-|TIcker |Name |
-|CT |Cotton |
-|OJ |Orange Juice |
-|BTC |Bitcoin |
-|ETH |Ether |
+| Ticker | Name         |
+|--------|--------------|
+| CT     | Cotton       |
+| OJ     | Orange Juice |
+| BTC    | Bitcoin      |
+| ETH    | Ether        |
+
 
 
 

@@ -46,23 +46,21 @@ https://github.com/LNshuti/meta-labelling-architecture.git
 # Step 2: Create an isolated environment to manage dependencies
 conda env create --file=environment.yaml
 
-# Step 3: install required python packages
+# Step 3: install required Python packages
 
 pip install -r requirements.txt
 
 # Step 4 OpenBB terminal commands 
 historical --ticker BTC
-
+```
+**Commonly used Ticker mapping**
+```python
 | Ticker | Name         |
 |--------|--------------|
 | CT     | Cotton       |
 | OJ     | Orange Juice |
 | BTC    | Bitcoin      |
 | ETH    | Ether        |
-
-
-
-
 ```
 
 **References**

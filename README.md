@@ -33,7 +33,7 @@ Disclaimer: This is for Educational Purposes Only.
 [here](https://www.loom.com/share/f96d2241e6b54d81a529ea2527c776ae)
 
 # How to access BTC data 
-We use **OpenBB Terminal**, an incredible open-source ![library](https://my.openbb.co/app/sdk) that provides APIs for accessing prices, news, data, and models. A comparable commercial tool is the Bloomberg Terminal.  
+We use **OpenBB Terminal**, an incredible open-source [library](https://my.openbb.co/app/sdk) that provides APIs for accessing prices, news, data, and models. A comparable commercial tool is the Bloomberg Terminal.  
 
 
 # How to use the code  

@@ -35,6 +35,7 @@ Disclaimer: This is for Educational Purposes Only.
 # How to access BTC data 
 We use **OpenBB Terminal**, an incredible open-source [library](https://my.openbb.co/app/sdk) that provides APIs for accessing prices, news, data, and models. A comparable commercial tool is the Bloomberg Terminal.  
 
+Follow Installation instructions from OpenBB's [website](https://my.openbb.co/app/sdk/installation)
 
 # How to use the code  
 
@@ -48,6 +49,19 @@ conda env create --file=environment.yaml
 # Step 3: install required python packages
 
 pip install -r requirements.txt
+
+# Step 4 OpenBB terminal commands 
+historical --ticker BTC
+
+|-|-|
+|TIcker |Name |
+|CT |Cotton |
+|OJ |Orange Juice |
+|BTC |Bitcoin |
+|ETH |Ether |
+
+
+
 ```
 
 **References**

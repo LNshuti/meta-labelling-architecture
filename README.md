@@ -2,6 +2,19 @@
 
 Deploy a full stack application that automatically downloads live Bitcoin prices from an exchange such as CoinmarketCap. Use Advanced ML forecasting methods to build a trading strategy based on ensemble modeling. Backtest strategy. 
 
+### Null Hypothesis
+------------------------------------
+There exists alpha in developing and deploying a custom trading bot using an ensemble model and experimenting with proprietary datasets. 
+
+This collaborative project aims to examine this hypothesis. We will build a full-stack application following software engineering and MLOPS best practices with the goal of disproving our null hypothesis.  
+
+**Team:** 
+------------------------------------
+* Leonce 
+* Indrit 
+* Dipta
+* You?
+
 Disclaimer: This is for Educational Purposes Only. 
 
 **Models taken into consideration:**

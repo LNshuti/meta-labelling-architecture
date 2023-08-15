@@ -50,8 +50,14 @@ conda env create --file=environment.yaml
 
 pip install -r requirements.txt
 
-# Step 4 OpenBB terminal commands 
-historical --ticker BTC
+## Install the OpenBB python package from PIP
+pip install openbb
+
+# Step 4: Open openbb using the terminal command
+$ openbb
+
+# Get Historical Bitcoin Prices
+$ historical --ticker BTC
 ```
 **Commonly used Ticker mapping**
 ```python

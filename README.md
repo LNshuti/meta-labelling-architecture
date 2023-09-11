@@ -76,8 +76,6 @@ $ historical --ticker BTC
 ```python
 | Ticker | Name         |
 |--------|--------------|
-| CT     | Cotton       |
-| OJ     | Orange Juice |
 | BTC    | Bitcoin      |
 | ETH    | Ether        |
 ```

@@ -25,3 +25,5 @@ node_modules/
 # Ignore environments
 .env
 .env.*
+
+research/pdated_dataset_with_RSI.csv

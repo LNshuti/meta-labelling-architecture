@@ -28,4 +28,4 @@ jobs:
     - name: Run Tests
       run: |
         cd ..
-        python deployment/backend/manage.py test
+        python deployment/backend/server/manage.py test

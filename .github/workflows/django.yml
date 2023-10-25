@@ -27,4 +27,4 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        python deployment/backend/manage.py test
+        python ../deployment/backend/manage.py test

@@ -1,9 +1,9 @@
-streamlit
-pandas
-numpy
-requests
-scikit-learn
-matplotlib
-wandb
+#streamlit
+#pandas
+#numpy
+#requests
+#scikit-learn
+#matplotlib
+#wandb
 Django 
-xgboost
+#xgboost

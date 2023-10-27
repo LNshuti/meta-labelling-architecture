@@ -28,4 +28,5 @@ jobs:
     - name: Run Tests
       run: |
         cd ..
+        ls
         python deployment/backend/server/manage.py test

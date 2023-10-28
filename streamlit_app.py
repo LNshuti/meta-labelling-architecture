@@ -46,26 +46,20 @@ def feature_engineering(df):
 
 # Create train_model function that takes a dataframe of historical prices as input and returns a trained model and MSE
 
-def train_model(df):
-    features= df[['open-close', 'low-high', 'is_quarter_end']]
-    target= df['target']
+# def train_model(df):
+   
 
-    scaler= StandardScaler()
-    features= scaler.fit_transform(features)
+#     # Fit a logistic regression model to the data
+#     model= LogisticRegression()
+#     model.fit(X_train, Y_train)
 
-    X_train, X_valid, Y_train, Y_valid= train_test_split(features, target, test_size=0.1, random_state=202)
+#     # Predict the validation set
+#     Y_pred= model.predict(X_valid)
 
-    # Fit a logistic regression model to the data
-    model= LogisticRegression()
-    model.fit(X_train, Y_train)
+#     # Calculate the MSE
+#     mse= metrics.mean_squared_error(Y_valid, Y_pred)
 
-    # Predict the validation set
-    Y_pred= model.predict(X_valid)
-
-    # Calculate the MSE
-    mse= metrics.mean_squared_error(Y_valid, Y_pred)
-
-    return model, mse
+#     return model, mse
 
 
 # Run the load_data and train_model functions
@@ -76,8 +70,6 @@ def main():
     df_crypto= load_data()
 
     df_crypto_features = feature_engineering(df_crypto)
-
-    model, mse= train_model(df_crypto_features)
 
     st.title('Crypto Price Prediction')
     st.write('This application predicts the price of crypto currencies.')
@@ -94,13 +86,38 @@ def main():
     # Create sidebar inputs for user to select crypto currency and date
     # Create a button to run the model and display the results
 
-    coin= st.sidebar.selectbox('Coin', df_crypto['coin'].unique())
-    date= st.sidebar.date_input('Date')
-    submit= st.sidebar.button('Predict')
+    coin = st.sidebar.selectbox('Coin', df_crypto['coin'].unique())
+    date = st.sidebar.date_input('Date')
+    submit = st.sidebar.button('Predict')
+
+    
 
     if submit: 
-        st.write('The predicted price is: ', model.predict([[0.1, 0.2, 0]]))
-        st.write('The MSE is: ', mse)
+        # print out the data for the selected coin 
+        st.write('You selected: ', coin)
+        # Filter the dataframe for the selected coin 
+        df_crypto_features = df_crypto_features[df_crypto_features['coin']==coin]
+
+        st.write(df_crypto_features.tail())
+
+        features = df_crypto_features[['open-close', 'low-high', 'is_quarter_end']]
+        target = df_crypto_features['target']
+
+        scaler = StandardScaler()
+        features = scaler.fit_transform(features)
+
+        X_train, X_valid, Y_train, Y_valid= train_test_split(features, target, test_size=0.1, random_state=202)
+
+        models = [LogisticRegression(), SVC(kernel='poly', probability=True), XGBClassifier()]
+
+        for i in range(3):
+            models[i].fit(X_train, Y_train)
+            
+            st.write(f'{models[i]} :')
+            st.write('Training Acc: ', metrics.roc_auc_score(Y_train, models[i].predict_proba(X_train)[:,1]))
+            st.write('Test Acc :', metrics.roc_auc_score(Y_valid, models[i].predict_proba(X_valid)[:,1]))
+            st.write('')
+        
 
 if __name__ == '__main__':
     main()

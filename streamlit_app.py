@@ -100,7 +100,7 @@ def main():
 
         st.write(df_crypto_features.tail())
 
-        features = df_crypto_features[['open-close', 'low-high', 'is_quarter_end']]
+        features = df_crypto_features[['open-close', 'low-high', 'is_quarter_end', 'Volume', 'Adj Close']]
         target = df_crypto_features['target']
 
         scaler = StandardScaler()

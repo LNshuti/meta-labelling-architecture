@@ -1,5 +1,6 @@
 import unittest
 import pandas as pd
+import numpy as np 
 import streamlit_app  # Assuming the code is in a file named 'streamlit_app.py'
 
 class TestStreamlitApp(unittest.TestCase):

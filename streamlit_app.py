@@ -44,6 +44,8 @@ def feature_engineering(df):
 
     return df
 
+
+
 # Create train_model function that takes a dataframe of historical prices as input and returns a trained model and MSE
 
 # def train_model(df):

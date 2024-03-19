@@ -6,7 +6,7 @@ Deploy a full stack application that automatically downloads live Bitcoin prices
 ------------------------------------
 There exists alpha in developing and deploying a custom trading bot using an ensemble model and experimenting with proprietary datasets. 
 
-This collaborative project aims to examine this hypothesis. We will build a full-stack application following software engineering and MLOPS best practices with the goal of disproving our null hypothesis.  
+This collaborative project aims to examine this hypothesis. We will build a full-stack application following software engineering and MLOPS best practices with **the goal of disproving our null hypothesis**.  
 
 **Team:** 
 ------------------------------------
@@ -15,7 +15,7 @@ This collaborative project aims to examine this hypothesis. We will build a full
 * Dipta
 * You?
 
-Disclaimer: This is for Educational Purposes Only. 
+**Disclaimer: This is for Educational Purposes Only.** 
 
 **Models taken into consideration:**
 ------------------------------------
